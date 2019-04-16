@@ -1,0 +1,36 @@
+<ul>
+	<li>
+		<TwitterShare size="s" type="square"/>
+	</li>
+	<li>
+		<FacebookShare size="l"/>
+	</li>
+	<li>
+		<HatenaShare type="square"/>
+	</li>
+	<li>
+		<LineShare/>
+	</li>
+</ul>
+
+<style>
+ul {
+	list-style: none;
+}
+li {
+	float: left;
+	margin: 0 1rem;
+}
+</style>
+
+<script>
+import { TwitterShare, FacebookShare, HatenaShare, LineShare } from './index';
+export default {
+	components: {
+		TwitterShare,
+		FacebookShare,
+		HatenaShare,
+		LineShare
+	}
+}
+</script>
