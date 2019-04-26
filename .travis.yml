@@ -4,10 +4,7 @@ node_js:
   - '10'
 dist: trusty
 sudo: false
-cache:
-  - yarn
-  directories:
-    - node_modules
+cache: yarn
 install:
   - yarn install
 script:
