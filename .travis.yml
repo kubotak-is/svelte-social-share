@@ -5,7 +5,7 @@ node_js:
 dist: trusty
 sudo: false
 cache:
-  yarn
+  - yarn
   directories:
     - node_modules
 install:
